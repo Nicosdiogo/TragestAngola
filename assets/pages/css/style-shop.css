@@ -1112,10 +1112,10 @@ table .product-quantity .input-group {
 	font-size: 15px;
 }
 .product-page-content .datasheet td {
-	padding: 5px 20px 5px 0;
-	border-bottom: solid 1px #eee;
+	padding: 5px 10px;
+	border-bottom: solid 2px #eee;
 }
-.datasheet-features-type {
+.bold {
 	font-weight: bold;
 }
 /* reviews tab */
