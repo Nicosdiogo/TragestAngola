@@ -357,10 +357,10 @@ Header and header elements
 	height: 63px;
 }
 .sticker-sale {
-	background: url(../../pages/img/sale.png) no-repeat;
+	background: url(../../pages/img/sale1.png) no-repeat;
 }
 .sticker-new {
-	background: url(../../pages/img/new.png) no-repeat;
+	background: url(../../pages/img/new1.png) no-repeat;
 	left: auto;
 	right: 0;
 }
@@ -665,13 +665,10 @@ div.radio {
 	position: relative;
 }
 div.radio, div.radio span, div.radio input {
-	width: 18px;
-	height: 18px;
+	
 }
 div.radio span {
-	display: -moz-inline-box;
-	display: inline-block;
-	*display: inline;
+	
 	zoom: 1;
 	text-align: center;
 	background-position: 0 -279px;
@@ -680,15 +677,9 @@ div.radio span.checked {
   background-position: -72px -279px;
 }
 div.radio input {
-	opacity: 0;
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	border: none;
+
 	background: none;
-	display: -moz-inline-box;
-	display: inline-block;
-	*display: inline;
-	zoom: 1;
+
 	text-align: center;
 }
 div.radio.active span {

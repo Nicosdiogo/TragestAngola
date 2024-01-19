@@ -448,6 +448,22 @@ var Layout = function () {
                     [1600, 2]
                 ],
             });
+            $(".owl-carousel1").owlCarousel({
+                pagination: false,
+                navigation: true,
+                items: 1,
+                addClassActive: true,
+                itemsCustom : [
+                    [0, 1],
+                    [320, 1],
+                    [480, 2],
+                    [700, 3],
+                    [975, 2],
+                    [1200, 2],
+                    [1400, 2],
+                    [1600, 2]
+                ],
+            });
         },
 
         initImageZoom: function () {

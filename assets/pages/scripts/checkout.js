@@ -8,9 +8,9 @@ var Checkout = function () {
               var title = '';
 
               if ($(this).attr('value') == 'register') {
-                title = 'Step 2: Account &amp; Billing Details';
+                title = 'Etapa 2:  Conta &amp; Detalhe de Cobrança';
               } else {
-                title = 'Step 2: Billing Details';
+                title = 'Etapa 2: Detalhe de Cobrança';
               }    
 
               $('#payment-address .accordion-toggle').html(title);
